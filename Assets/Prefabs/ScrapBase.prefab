@@ -186,6 +186,8 @@ MonoBehaviour:
   _visitiblityRules: {fileID: 0}
   maxSpeed: 10
   minSpeed: 2
+  minLifetime: 5
+  maxLifetime: 10
   maxDeviation: 5
   rb: {fileID: 3557288780284713830}
 --- !u!114 &8905332078686488534

@@ -1,7 +1,13 @@
+using PurrNet;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerManager : NetworkBehaviour
 {
+
+    private void OnConnectedToServer()
+    {
+        
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
